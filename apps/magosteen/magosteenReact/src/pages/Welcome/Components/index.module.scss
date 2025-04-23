@@ -1,0 +1,22 @@
+.card {
+  background: var(--welcome-card-bg);
+}
+.actions {
+  position: absolute;
+  z-index: var(--z-index-bottom-nav);
+  background: var(--welcome-bg-end);
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  height: var(--welcome-nav-height);
+  padding: 0 16px;
+  color: var(--welcome-text);
+  padding-bottom: var(--welcome-nav-gap);
+  > .fake {
+    visibility: hidden;
+  }
+}
