@@ -1,0 +1,73 @@
+.form {
+  :global(.el-form-item) {
+    margin-right: 16px;
+  }
+  :global(.el-tabs__nav-wrap) {
+    &:after {
+      background: #409eff;
+      height: 1px;
+    }
+    :global(.el-tabs__active-bar) {
+      height: 1px;
+    }
+    :global(.el-tabs__item) {
+      &:hover {
+        cursor: default;
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 18px;
+  }
+
+  .table {
+    :global(td) {
+      padding: 20px 0;
+      :global(.el-form-item) {
+        margin-right: 0;
+        margin-bottom: 0;
+
+        :global(.el-form-item__content) {
+          position: unset;
+        }
+
+        :global(.el-form-item__error) {
+          margin-top: -18px;
+          margin-left: 15px;
+        }
+      }
+    }
+
+    .toolswrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .tools {
+        width: 16px;
+        height: 16px;
+      }
+    }
+
+    .operator {
+      display: flex;
+      .add,
+      .remove {
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+      }
+      .add {
+        margin: 0 4px;
+        color: red;
+      }
+      .remove {
+        color: green;
+      }
+      .disabled {
+        color: #666;
+      }
+    }
+  }
+}
