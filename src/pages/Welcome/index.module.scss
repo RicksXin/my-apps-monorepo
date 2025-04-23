@@ -1,0 +1,9 @@
+.wrapper {
+  height: calc(100vh - var(--welcome-nav-height));
+  background-image: linear-gradient(
+    to bottom,
+    var(--welcome-bg-start) 0%,
+    var(--welcome-bg-end) 100%
+  );
+  margin-bottom: var(--welcome-nav-height);
+}
