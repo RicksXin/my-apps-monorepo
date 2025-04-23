@@ -1,0 +1,21 @@
+.btn {
+  border: 1px slid var(--button-bg);
+  padding: 8px 16px;
+  height: var(--button-height);
+  background: var(--button-bg);
+  color: var(--button-text);
+  font-size: var(--button-font-size);
+  border-radius: var(--button-radius);
+  &.disabled {
+    opacity: .5;
+    cursor: not-allowed;
+  }
+  // &.normal {
+  // }
+  // &.important {
+  // }
+  &.danger {
+    background: var(--button-bg-danger);
+    border-color: var(--button-bg-danger);
+  }
+}

@@ -1,0 +1,16 @@
+.icon {
+  width: 128px;
+  height: 128px;
+  &_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+  }
+}
+.btn {
+  width: 100%;
+  &_wrapper {
+    padding: 16px 16px;
+  }
+}
